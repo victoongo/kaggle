@@ -12,6 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 # Data cleanup
 # TRAIN DATA
+cd "~/Dropbox/Projects/ml_titanic/data"
 train_df = pd.read_csv('train.csv', header=0)        # Load the train file into a dataframe
 
 # I need to convert all strings to integer classifiers.
